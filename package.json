@@ -1,0 +1,28 @@
+{
+  "name": "brazilian-cities",
+  "version": "1.0.0",
+  "description": "All brazilian cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talesporto/brazilian-cities.git"
+  },
+  "keywords": [
+    "brazilian",
+    "states",
+    "cities",
+    "brazil",
+    "brasil",
+    "cidades",
+    "estados"
+  ],
+  "author": "Tales Porto <talesap@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/talesporto/brazilian-cities/issues"
+  },
+  "homepage": "https://github.com/talesporto/brazilian-cities#readme"
+}

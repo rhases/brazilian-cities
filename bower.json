@@ -1,0 +1,22 @@
+{
+  "name": "brazilian-cities",
+  "homepage": "https://github.com/talesporto/brazilian-cities",
+  "authors": [
+    "Tales Porto <talesap@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "brazilian",
+    "states",
+    "cities"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
