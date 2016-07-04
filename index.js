@@ -22433,24 +22433,24 @@ brazilianInfos.statesAndCities = [
 ];
 
 brazilianInfos.getStateByLabel = function(label) {
-	if (!states || !label)
+	if (!brazilianInfos.statesAndCities || !label)
 		return;
 
 	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.label.toLowerCase() === label.toLowerCase(); })
 
 	if (index > 0)
-		return states[index];
+		return brazilianInfos.statesAndCities[index];
 	return undefined;
 }
 
 brazilianInfos.getStateByCod = function(cod) {
-	if (!states || !cod)
+	if (!brazilianInfos.statesAndCities || !cod)
 		return;
 
 	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.cod.toLowerCase() === cod.toLowerCase(); })
 
 	if (index > 0)
-		return states[index];
+		return brazilianInfos.statesAndCities[index];
 	return undefined;
 }
 
