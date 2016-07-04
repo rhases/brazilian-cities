@@ -1,4 +1,6 @@
-var brazilianStatesAndCities = [
+var brazilianInfos = {};
+
+brazilianInfos.statesAndCities = [
    {
       cod: "ac",
       label: "Acre",
@@ -22430,6 +22432,55 @@ var brazilianStatesAndCities = [
    }
 ];
 
+brazilianInfos.getStateByLabel = function(label) {
+	if (!states || !label)
+		return;
+
+	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.label.toLowerCase() === label.toLowerCase(); })
+
+	if (index > 0)
+		return states[index];
+	return undefined;
+}
+
+brazilianInfos.getStateByCod = function(cod) {
+	if (!states || !cod)
+		return;
+
+	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.cod.toLowerCase() === cod.toLowerCase(); })
+
+	if (index > 0)
+		return states[index];
+	return undefined;
+}
+
+brazilianInfos.getCityByLabel = function(state, label) {
+	if (!state || !state.cities)
+		return;
+	if (!label)
+		return;
+
+	var index = _.findIndex(state.cities, function(city) { return city.label.toLowerCase() === label.toLowerCase(); })
+
+	if (index > 0)
+		return state.cities[index];
+	return undefined;
+}
+
+brazilianInfos.getCityByCod = function(state, cod) {
+	if (!state || !state.cities)
+		return;
+	if (!cod)
+		return;
+
+	var index = _.findIndex(state.cities, function(city) { return city.cod.toLowerCase() === cod.toLowerCase(); })
+
+	if (index > 0)
+		return state.cities[index];
+	return undefined;
+}
+
+
 if (module) {
-	module.exports = brazilianStatesAndCities;
+	module.exports = brazilianInfos;
 }
