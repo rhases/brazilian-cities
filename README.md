@@ -13,7 +13,7 @@ Several quick start options are available:
 
 * Clone the repo: `git clone https://github.com/talesap/brazilian-cities.git`.
 * Install with [Bower](http://bower.io): `bower install brazilian-cities`.
-* Install with [npm](https://www.npmjs.com): `npm install brazilian-cities@3`.
+* Install with [npm](https://www.npmjs.com): `npm install brazilian-cities`.
 
 ## Creators
 
