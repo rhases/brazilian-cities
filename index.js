@@ -1,5 +1,9 @@
 var brazilianInfos = {};
 
+if (typeof require !== 'undefined') {
+	var _ = require('lodash');
+}
+
 brazilianInfos.statesAndCities = [
    {
       cod: "ac",
@@ -22508,10 +22512,6 @@ brazilianInfos.allCityCodes = function(state) {
 	return codes;
 }
 
-try {
-	if (module) {
-		module.exports = brazilianInfos;
-	}
-} catch(err) {
-
+if (typeof module !== 'undefined') {
+	module.exports = brazilianInfos;
 }
