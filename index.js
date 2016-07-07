@@ -22454,6 +22454,15 @@ brazilianInfos.getStateByCod = function(cod) {
 	return undefined;
 }
 
+brazilianInfos.allStateCodes = function() {
+	if (!brazilianInfos.statesAndCities)
+		return;
+
+	var codes = [];
+	brazilianInfos.statesAndCities.forEach(function(state) { codes.push(state.cod); });
+	return codes;
+}
+
 brazilianInfos.getCityByLabel = function(state, label) {
 	if (!state || !state.cities)
 		return;
@@ -22480,7 +22489,29 @@ brazilianInfos.getCityByCod = function(state, cod) {
 	return undefined;
 }
 
+brazilianInfos.allCityCodes = function(state) {
+	if (!brazilianInfos.statesAndCities)
+		return;
 
-if (module) {
-	module.exports = brazilianInfos;
+	var codes = [];
+	if (!state) {
+		brazilianInfos.statesAndCities.forEach(function(state) {
+			state.cities.forEach(function(city) {
+				codes.push(city.cod);
+			})
+		});
+	} else {
+		state.cities.forEach(function(city) {
+			codes.push(city.cod);
+		})
+	}
+	return codes;
+}
+
+try {
+	if (module) {
+		module.exports = brazilianInfos;
+	}
+} catch(err) {
+
 }
