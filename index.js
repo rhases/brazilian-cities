@@ -22475,7 +22475,7 @@ brazilianInfos.getCityByLabel = function(state, label) {
 
 	var index = _.findIndex(state.cities, function(city) { return city.label.toLowerCase() === label.toLowerCase(); })
 
-	if (index > 0)
+	if (index >= 0)
 		return state.cities[index];
 	return undefined;
 }
@@ -22488,7 +22488,7 @@ brazilianInfos.getCityByCod = function(state, cod) {
 
 	var index = _.findIndex(state.cities, function(city) { return city.cod.toLowerCase() === cod.toLowerCase(); })
 
-	if (index > 0)
+	if (index >= 0)
 		return state.cities[index];
 	return undefined;
 }
