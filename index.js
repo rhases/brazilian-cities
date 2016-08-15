@@ -1,4 +1,4 @@
-var brazilianInfos = {};
+brazilianInfos = {};
 
 if (typeof require !== 'undefined') {
 	var _ = require('lodash');
@@ -22442,7 +22442,7 @@ brazilianInfos.getStateByLabel = function(label) {
 
 	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.label.toLowerCase() === label.toLowerCase(); })
 
-	if (index > 0)
+	if (index >= 0)
 		return brazilianInfos.statesAndCities[index];
 	return undefined;
 }
@@ -22453,7 +22453,7 @@ brazilianInfos.getStateByCod = function(cod) {
 
 	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.cod.toLowerCase() === cod.toLowerCase(); })
 
-	if (index > 0)
+	if (index >= 0)
 		return brazilianInfos.statesAndCities[index];
 	return undefined;
 }
