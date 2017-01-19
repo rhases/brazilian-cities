@@ -34640,7 +34640,7 @@ brazilianInfos.getAllByDDD = function(ddd) {
 	if (!ddd)
 		return;
 
-	return _.compact(statesAndCities.map(function(state) {
+	return _.compact(brazilianInfos.statesAndCities.map(function(state) {
 			var newState = _.clone(state);
 			newState.cities = newState.cities.filter(function(city){ return city.ddd === ddd; });
 			if (newState.cities.length > 0)
@@ -34653,7 +34653,7 @@ brazilianInfos.getAllByAnsArea = function(ansAreaCod) {
 	if (!ansAreaCod)
 		return;
 
-	return _.compact(statesAndCities.map(function(state) {
+	return _.compact(brazilianInfos.statesAndCities.map(function(state) {
 			var newState = _.clone(state);
 			newState.cities = newState.cities.filter(function(city){ return city.ansArea === ansAreaCod; });
 			if (newState.cities.length > 0)
