@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/talesporto/brazilian-cities.git"
+    "url": "git+https://github.com/rhases/brazilian-cities.git"
   },
   "keywords": [
     "brazilian",
@@ -22,9 +22,9 @@
   "author": "Tales Porto <talesap@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/talesporto/brazilian-cities/issues"
+    "url": "https://github.com/rhases/brazilian-cities/issues"
   },
-  "homepage": "https://github.com/talesporto/brazilian-cities#readme",
+  "homepage": "https://github.com/rhases/brazilian-cities#readme",
   "dependencies": {
     "lodash": "^4.13.1"
   }
