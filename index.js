@@ -5060,7 +5060,9 @@ brazilianInfos.statesAndCities = [{
     "label": "Distrito Federal",
     "cities": [{
         "cod": "aguas-claras",
-        "label": "Águas Claras"
+        "label": "Águas Claras",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "brasilia",
         "label": "Brasília",
@@ -5069,91 +5071,149 @@ brazilianInfos.statesAndCities = [{
         "ddd": 61
     }, {
         "cod": "brazlandia",
-        "label": "Brazlândia"
+        "label": "Brazlândia",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "candangolandia",
-        "label": "Candangolândia"
+        "label": "Candangolândia",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "ceilandia",
-        "label": "Ceilândia"
+        "label": "Ceilândia",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "cruzeiro",
-        "label": "Cruzeiro"
+        "label": "Cruzeiro",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "fercal",
-        "label": "Fercal"
+        "label": "Fercal",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "gama",
-        "label": "Gama"
+        "label": "Gama",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "guara",
-        "label": "Guará"
+        "label": "Guará",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "itapoa",
-        "label": "Itapoã"
+        "label": "Itapoã",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "jardim-botanico",
-        "label": "Jardim Botânico"
+        "label": "Jardim Botânico",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "lago-sul",
-        "label": "Lago Sul"
+        "label": "Lago Sul",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "lago-norte",
-        "label": "Lago Norte"
+        "label": "Lago Norte",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "nucleo-bandeirante",
-        "label": "Núcleo Bandeirante"
+        "label": "Núcleo Bandeirante",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "park-way",
-        "label": "Park Way"
+        "label": "Park Way",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "paranoa",
-        "label": "Paranoá"
+        "label": "Paranoá",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "planaltina",
-        "label": "Planaltina"
+        "label": "Planaltina",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "recanto-das-emas",
-        "label": "Recanto das Emas"
+        "label": "Recanto das Emas",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "riacho-fundo",
-        "label": "Riacho Fundo"
+        "label": "Riacho Fundo",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "riacho-fundo-ii",
-        "label": "Riacho Fundo II"
+        "label": "Riacho Fundo II",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "samambaia",
-        "label": "Samambaia"
+        "label": "Samambaia",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "santa-maria",
-        "label": "Santa Maria"
+        "label": "Santa Maria",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "sao-sebastiao",
-        "label": "São Sebastião"
+        "label": "São Sebastião",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "scia",
-        "label": "SCIA"
+        "label": "SCIA",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "sia",
-        "label": "SIA"
+        "label": "SIA",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "sobradinho-i",
-        "label": "Sobradinho I"
+        "label": "Sobradinho I",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "sobradinho-ii",
-        "label": "Sobradinho II"
+        "label": "Sobradinho II",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "sudoeste-octogonal",
-        "label": "Sudoeste/Octogonal"
+        "label": "Sudoeste/Octogonal",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "taguatinga",
-        "label": "Taguatinga"
+        "label": "Taguatinga",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "varjao",
-        "label": "Varjão"
+        "label": "Varjão",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }, {
         "cod": "vicente-pires",
-        "label": "Vicente Pires"
+        "label": "Vicente Pires",
+        "ansArea": "distrito-federal",
+        "ddd": 61
     }],
     "ansAreas": [{
         "name": "Distrito Federal",
