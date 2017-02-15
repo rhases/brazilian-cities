@@ -5062,6 +5062,7 @@ brazilianInfos.statesAndCities = [{
         "cod": "aguas-claras",
         "label": "Águas Claras",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539901,
         "ddd": 61
     }, {
         "cod": "brasilia",
@@ -5073,21 +5074,25 @@ brazilianInfos.statesAndCities = [{
         "cod": "brazlandia",
         "label": "Brazlândia",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530020,
         "ddd": 61
     }, {
         "cod": "candangolandia",
         "label": "Candangolândia",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530030,
         "ddd": 61
     }, {
         "cod": "ceilandia",
         "label": "Ceilândia",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530040,
         "ddd": 61
     }, {
         "cod": "cruzeiro",
         "label": "Cruzeiro",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530050,
         "ddd": 61
     }, {
         "cod": "fercal",
@@ -5098,121 +5103,145 @@ brazilianInfos.statesAndCities = [{
         "cod": "gama",
         "label": "Gama",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530060,
         "ddd": 61
     }, {
         "cod": "guara",
         "label": "Guará",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530070,
         "ddd": 61
     }, {
         "cod": "itapoa",
         "label": "Itapoã",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539928,
         "ddd": 61
     }, {
         "cod": "jardim-botanico",
         "label": "Jardim Botânico",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539930,
         "ddd": 61
     }, {
         "cod": "lago-sul",
         "label": "Lago Sul",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530090,
         "ddd": 61
     }, {
         "cod": "lago-norte",
         "label": "Lago Norte",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530080,
         "ddd": 61
     }, {
         "cod": "nucleo-bandeirante",
         "label": "Núcleo Bandeirante",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530100,
         "ddd": 61
     }, {
         "cod": "park-way",
         "label": "Park Way",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539913,
         "ddd": 61
     }, {
         "cod": "paranoa",
         "label": "Paranoá",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530110,
         "ddd": 61
     }, {
         "cod": "planaltina",
         "label": "Planaltina",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530120,
         "ddd": 61
     }, {
         "cod": "recanto-das-emas",
         "label": "Recanto das Emas",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530130,
         "ddd": 61
     }, {
         "cod": "riacho-fundo",
         "label": "Riacho Fundo",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530135,
         "ddd": 61
     }, {
         "cod": "riacho-fundo-ii",
         "label": "Riacho Fundo II",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539917,
         "ddd": 61
     }, {
         "cod": "samambaia",
         "label": "Samambaia",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530140,
         "ddd": 61
     }, {
         "cod": "santa-maria",
         "label": "Santa Maria",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530150,
         "ddd": 61
     }, {
         "cod": "sao-sebastiao",
         "label": "São Sebastião",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530160,
         "ddd": 61
     }, {
         "cod": "scia",
         "label": "SCIA",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539929,
         "ddd": 61
     }, {
         "cod": "sia",
         "label": "SIA",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539933,
         "ddd": 61
     }, {
         "cod": "sobradinho-i",
         "label": "Sobradinho I",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530170,
         "ddd": 61
     }, {
         "cod": "sobradinho-ii",
         "label": "Sobradinho II",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539922,
         "ddd": 61
     }, {
         "cod": "sudoeste-octogonal",
         "label": "Sudoeste/Octogonal",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539931,
         "ddd": 61
     }, {
         "cod": "taguatinga",
         "label": "Taguatinga",
         "ansArea": "distrito-federal",
+        "ibgeCod": 530180,
         "ddd": 61
     }, {
         "cod": "varjao",
         "label": "Varjão",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539925,
         "ddd": 61
     }, {
         "cod": "vicente-pires",
         "label": "Vicente Pires",
         "ansArea": "distrito-federal",
+        "ibgeCod": 539934,
         "ddd": 61
     }],
     "ansAreas": [{
