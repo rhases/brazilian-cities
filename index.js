@@ -4410,7 +4410,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "itapage",
         "label": "Itapagé",
         "ansArea": "caucaia",
-        "ibgeCod": 230630
+        "ibgeCod": 230630,
+				"ddd": 85
     }, {
         "cod": "itapipoca",
         "label": "Itapipoca",
@@ -4472,8 +4473,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 230720,
         "ddd": 88
     }, {
-        "cod": "jijoca-de-jericoaroara",
-        "label": "Jijoca de Jericoaroara"
+        "cod": "jijoca-de-jericoacoara",
+        "label": "Jijoca de Jericoacoara",
+				"ansArea": "acarau",
+				"ibgeCod": 230725,
+				"ddd": 88
     }, {
         "cod": "juazeiro-do-norte",
         "label": "Juazeiro do Norte",
@@ -5098,6 +5102,7 @@ brazilianInfos.statesAndCities = [{
         "cod": "fercal",
         "label": "Fercal",
         "ansArea": "distrito-federal",
+				"ibgeCod": 530010,
         "ddd": 61
     }, {
         "cod": "gama",
@@ -6055,8 +6060,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 520480,
         "ddd": 64
     }, {
-        "cod": "campos-limpo-de-goias",
-        "label": "Campos Limpo de Goiás"
+        "cod": "campo-limpo-de-goias",
+        "label": "Campo Limpo de Goiás",
+				"ansArea": "pirineus",
+				"ibgeCod": 520485,
+				"ddd": 62
     }, {
         "cod": "campos-belos",
         "label": "Campos Belos",
@@ -9230,10 +9238,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 310860,
         "ddd": 38
     }, {
-        "cod": "brasopolis",
-        "label": "Brasópolis",
+        "cod": "brazopolis",
+        "label": "Brazópolis",
         "ansArea": "pouso-alegre",
-        "ibgeCod": 310890
+        "ibgeCod": 310890,
+				"ddd": 35
     }, {
         "cod": "braunas",
         "label": "Braúnas",
@@ -10202,7 +10211,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 35
     }, {
         "cod": "dona-euzebia",
-        "label": "Dona Euzébia"
+        "label": "Dona Euzébia",
+				"ansArea": "sao-joao-del-rei",
+				"ibgeCod": 312290,
+				"ddd": 32
     }, {
         "cod": "dores-de-campos",
         "label": "Dores de Campos",
@@ -10828,8 +10840,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 313170,
         "ddd": 31
     }, {
-        "cod": "itabirinha-de-mantena",
-        "label": "Itabirinha de Mantena"
+        "cod": "itabirinha",
+        "label": "Itabirinha",
+				"ansArea": "governador-valadares",
+				"ibgeCod": 313180,
+				"ddd": 33
     }, {
         "cod": "itabirito",
         "label": "Itabirito",
@@ -13938,8 +13953,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 500190,
         "ddd": 67
     }, {
-        "cod": "bataipora",
-        "label": "Bataiporã"
+        "cod": "bataypora",
+        "label": "Batayporã",
+				"ansArea": "nct-de-nova-andradina",
+				"ibgeCod": 500200,
+				"ddd": 67
     }, {
         "cod": "bela-vista",
         "label": "Bela Vista",
@@ -14963,7 +14981,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "poxoreo",
         "label": "Poxoréo",
         "ansArea": "rondonopolis",
-        "ibgeCod": 510700
+        "ibgeCod": 510700,
+			  "ddd": 66
     }, {
         "cod": "primavera-do-leste",
         "label": "Primavera do Leste",
@@ -15531,7 +15550,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "eldorado-dos-carajas",
         "label": "Eldorado dos Carajás",
         "ansArea": "serra-dos-carajas",
-        "ibgeCod": 150295
+        "ibgeCod": 150295,
+				"ddd": 94
     }, {
         "cod": "faro",
         "label": "Faro",
@@ -15896,7 +15916,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "santa-isabel-do-para",
         "label": "Santa Isabel do Pará",
         "ansArea": "rodovia-pa-140/rio-capim",
-        "ibgeCod": 150650
+        "ibgeCod": 150650,
+				"ddd":91
     }, {
         "cod": "santa-luzia-do-para",
         "label": "Santa Luzia do Pará",
@@ -15940,8 +15961,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 150700,
         "ddd": 91
     }, {
-        "cod": "sao-caetano-de-odivela",
-        "label": "São Caetano de Odivela"
+        "cod": "sao-caetano-de-odivelas",
+        "label": "São Caetano de Odivelas",
+				"ansArea": "rodovia-pa-140/rio-guajara-mirim",
+				"ibgeCod": 150710,
+				"ddd": 91
     }, {
         "cod": "sao-domingos-do-araguaia",
         "label": "São Domingos do Araguaia",
@@ -16482,7 +16506,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "campo-de-santana",
         "label": "Campo de Santana",
         "ansArea": "ii-nucleo-regional-de-saude",
-        "ibgeCod": 251640
+        "ibgeCod": 251640,
+				"ddd": 83
     }, {
         "cod": "capim",
         "label": "Capim",
@@ -17225,7 +17250,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "santarem",
         "label": "Santarém",
         "ansArea": "ix-nucleo-regional-de-saude",
-        "ibgeCod": 251365
+        "ibgeCod": 251365,
+				"ddd": 93
     }, {
         "cod": "santo-andre",
         "label": "Santo André",
@@ -17245,8 +17271,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 251390,
         "ddd": 83
     }, {
-        "cod": "sao-domingos-de-pombal",
-        "label": "São Domingos de Pombal"
+        "cod": "sao-domingos",
+        "label": "São Domingos",
+				"ansArea": "viii-nucleo-regional-de-saude",
+				"ibgeCod": 251396,
+				"ddd": 83
     }, {
         "cod": "sao-domingos-do-cariri",
         "label": "São Domingos do Cariri",
@@ -17371,7 +17400,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "serido",
         "label": "Seridó",
         "ansArea": "iv-nucleo-regional-de-saude",
-        "ibgeCod": 251540
+        "ibgeCod": 251540,
+			  "ddd": 83
     }, {
         "cod": "serra-branca",
         "label": "Serra Branca",
@@ -17657,7 +17687,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "belem-de-sao-francisco",
         "label": "Belém de São Francisco",
         "ansArea": "salgueiro",
-        "ibgeCod": 260160
+        "ibgeCod": 260160,
+				"ddd": 87
     }, {
         "cod": "belo-jardim",
         "label": "Belo Jardim",
@@ -18004,8 +18035,15 @@ brazilianInfos.statesAndCities = [{
         "cod": "iguaraci",
         "label": "Iguaraci",
         "ansArea": "afogados-da-ingazeira",
-        "ibgeCod": 260690
+        "ibgeCod": 260690,
+				"ddd": 87
     }, {
+        "cod": "ilha-de-itamaraca",
+        "label": "Ilha de Itamaracá",
+				"ansArea": "recife",
+				"ibgeCod": 260760,
+				"ddd": 81
+    },{
         "cod": "inaja",
         "label": "Inajá",
         "ansArea": "arcoverde",
@@ -18041,9 +18079,6 @@ brazilianInfos.statesAndCities = [{
         "ansArea": "garanhuns",
         "ibgeCod": 260750,
         "ddd": 87
-    }, {
-        "cod": "itamaraca",
-        "label": "Itamaracá"
     }, {
         "cod": "itambe",
         "label": "Itambé",
@@ -18132,7 +18167,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "lagoa-do-itaenga",
         "label": "Lagoa do Itaenga",
         "ansArea": "limoeiro",
-        "ibgeCod": 260850
+        "ibgeCod": 260850,
+				"ddd": 81
     }, {
         "cod": "lagoa-do-ouro",
         "label": "Lagoa do Ouro",
@@ -20096,7 +20132,13 @@ brazilianInfos.statesAndCities = [{
         "ansArea": "campo-mourao",
         "ibgeCod": 410045,
         "ddd": 44
-    }, {
+    },{
+        "cod": "alto-paraiso",
+        "label": "Alto Paraíso",
+				"ansArea": "umuarama",
+				"ibgeCod": 412862,
+				"ddd": 46
+    },{
         "cod": "alto-parana",
         "label": "Alto Paraná",
         "ansArea": "paranavai",
@@ -21994,7 +22036,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 43
     }, {
         "cod": "santa-cruz-monte-castelo",
-        "label": "Santa Cruz Monte Castelo"
+        "label": "Santa Cruz Monte Castelo",
+				"ansArea": "paranavai",
+				"ibgeCod": 412330,
+				"ddd": 44
     }, {
         "cod": "santa-fe",
         "label": "Santa Fé",
@@ -22428,9 +22473,6 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 412860,
         "ddd": 46
     }, {
-        "cod": "vila-alta",
-        "label": "Vila Alta"
-    }, {
         "cod": "virmond",
         "label": "Virmond",
         "ansArea": "guarapuava",
@@ -22550,8 +22592,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 330022,
         "ddd": 24
     }, {
-        "cod": "armacao-de-buzios",
-        "label": "Armação de Búzios"
+        "cod": "armacao-dos-buzios",
+        "label": "Armação dos Búzios",
+				"ansArea": "baixada-litoranea",
+				"ibgeCod": 330023,
+				"ddd": 24
     }, {
         "cod": "arraial-do-cabo",
         "label": "Arraial do Cabo",
@@ -22835,8 +22880,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 330370,
         "ddd": 24
     }, {
-        "cod": "parati",
-        "label": "Parati"
+        "cod": "paraty",
+        "label": "Paraty",
+				"ansArea": "baia-da-ilha-grande",
+				"ibgeCod": 330380,
+				"ddd": 24
     }, {
         "cod": "paty-do-alferes",
         "label": "Paty do Alferes",
@@ -23036,8 +23084,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 330580,
         "ddd": 21
     }, {
-        "cod": "trajano-de-morais",
-        "label": "Trajano de Morais"
+        "cod": "trajano-de-moraes",
+        "label": "Trajano de Moraes",
+				"ansArea": "serrana",
+				"ibgeCod": 330590,
+				"ddd": 22
     }, {
         "cod": "tres-rios",
         "label": "Três Rios",
@@ -23764,7 +23815,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "presidente-juscelino",
         "label": "Presidente Juscelino",
         "ansArea": "v-etam",
-        "ibgeCod": 241030
+        "ibgeCod": 241030,
+			  "ddd": 84
     }, {
         "cod": "pureza",
         "label": "Pureza",
@@ -23910,8 +23962,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 241250,
         "ddd": 84
     }, {
-        "cod": "sao-miguel-de-touros",
-        "label": "São Miguel de Touros"
+        "cod": "sao-miguel-do-gostoso",
+        "label": "São Miguel do Gostoso",
+				"ansArea": "vi-etam",
+				"ibgeCod": 241255,
+				"ddd": 84
     }, {
         "cod": "sao-paulo-do-potengi",
         "label": "São Paulo do Potengi",
@@ -24131,8 +24186,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 110001,
         "ddd": 69
     }, {
-        "cod": "alto-alegre-do-parecis",
-        "label": "Alto Alegre do Parecis"
+        "cod": "alto-alegre-dos-parecis",
+        "label": "Alto Alegre dos Parecis",
+				"ansArea": "ii-delegacia-regional-de-saude",
+				"ibgeCod": 110037,
+				"ddd": 69
     }, {
         "cod": "alto-paraiso",
         "label": "Alto Paraíso",
@@ -24795,8 +24853,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 430200,
         "ddd": 54
     }, {
-        "cod": "benjamin-constan-do-sul",
-        "label": "Benjamin Constan do Sul"
+        "cod": "benjamin-constant-do-sul",
+        "label": "Benjamin Constant do Sul",
+				"ansArea": "crs-11-erechim",
+				"ibgeCod": 430205,
+				"ddd": 54
     }, {
         "cod": "bento-goncalves",
         "label": "Bento Gonçalves",
@@ -25176,13 +25237,16 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 430537,
         "ddd": 54
     }, {
-        "cod": "chiapeta",
-        "label": "Chiapeta"
+        "cod": "chiapetta",
+        "label": "Chiapetta",
+				"ansArea": "crs-17-ijui",
+				"ibgeCod": 430537,
+				"ddd": 55
     }, {
         "cod": "chui",
         "label": "Chuí",
         "ansArea": "crs-03-pelotas",
-        "ibgeCod": 430543,
+        "ibgeCod": 430540,
         "ddd": 53
     }, {
         "cod": "chuvisca",
@@ -26764,7 +26828,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 53
     }, {
         "cod": "santana-do-livramento",
-        "label": "Santana do Livramento"
+        "label": "Santana do Livramento",
+				"ansArea": "crs-10-alegrete",
+				"ibgeCod": 431710,
+				"ddd": 55
     }, {
         "cod": "santiago",
         "label": "Santiago",
@@ -26840,7 +26907,7 @@ brazilianInfos.statesAndCities = [{
     }, {
         "cod": "sao-francisco-de-paula",
         "label": "São Francisco de Paula",
-        "ansArea": "crs-02-porto-alegre",
+				"ansArea": "crs-02-porto-alegre",
         "ibgeCod": 431820,
         "ddd": 54
     }, {
@@ -28736,8 +28803,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 421270,
         "ddd": 47
     }, {
-        "cod": "picarras",
-        "label": "Piçarras"
+        "cod": "balneario-picarras",
+        "label": "Balneário Piçarras",
+				"ansArea": "itajai",
+				"ibgeCod": 421280,
+				"ddd": 47
     }, {
         "cod": "pinhalzinho",
         "label": "Pinhalzinho",
@@ -28812,7 +28882,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 48
     }, {
         "cod": "presidente-castelo-branco",
-        "label": "Presidente Castelo Branco"
+        "label": "Presidente Castelo Branco",
+				"ansArea": "maringa",
+				"ibgeCod": 412040,
+				"ddd": 44
     }, {
         "cod": "presidente-getulio",
         "label": "Presidente Getúlio",
@@ -29539,7 +29612,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "gracho-cardoso",
         "label": "Gracho Cardoso",
         "ansArea": "regiao-nossa-senhora-da-gloria",
-        "ibgeCod": 280260
+        "ibgeCod": 280260,
+				"ddd": 79
     }, {
         "cod": "ilha-das-flores",
         "label": "Ilha das Flores",
@@ -30884,7 +30958,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "embu",
         "label": "Embu",
         "ansArea": "grande-sao-paulo",
-        "ibgeCod": 351500
+        "ibgeCod": 351500,
+				"ddd": 11
     }, {
         "cod": "embu-guacu",
         "label": "Embu-Guaçu",
@@ -31319,7 +31394,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 18
     }, {
         "cod": "ipaucu",
-        "label": "Ipauçu"
+        "label": "Ipauçu",
+				"ansArea": "marilia",
+				"ibgeCod": 352090,
+				"ddd": 14
     }, {
         "cod": "ipero",
         "label": "Iperó",
@@ -31953,6 +32031,8 @@ brazilianInfos.statesAndCities = [{
     }, {
         "cod": "mogi-mirim",
         "label": "Mogi-Mirim",
+				"ansArea": "sao-joao-da-boa-vista",
+				"ibgeCod": 353080,
         "ddd": 19
     }, {
         "cod": "mombuca",
@@ -34040,7 +34120,10 @@ brazilianInfos.statesAndCities = [{
         "ddd": 63
     }, {
         "cod": "couto-de-magalhaes",
-        "label": "Couto de Magalhães"
+        "label": "Couto de Magalhães",
+				"ansArea": "regiao-de-saude-de-araguaia-tocantins",
+				"ibgeCod": 170600,
+				"ddd": 63
     }, {
         "cod": "cristalandia",
         "label": "Cristalândia",
@@ -34510,8 +34593,11 @@ brazilianInfos.statesAndCities = [{
         "ibgeCod": 171900,
         "ddd": 63
     }, {
-        "cod": "santa-terezinha-tocantins",
-        "label": "Santa Terezinha Tocantins"
+        "cod": "santa-terezinha-do-tocantins",
+        "label": "Santa Terezinha do Tocantins",
+				"ansArea": "regiao-de-saude-portal-do-bico",
+				"ibgeCod": 172000,
+				"ddd": 63
     }, {
         "cod": "sao-bento-do-tocantins",
         "label": "São Bento do Tocantins",
@@ -34546,7 +34632,8 @@ brazilianInfos.statesAndCities = [{
         "cod": "sao-valerio-da-natividade",
         "label": "São Valério da Natividade",
         "ansArea": "regiao-de-saude-do-sul-angical",
-        "ibgeCod": 172049
+        "ibgeCod": 172049,
+        "ddd": 63
     }, {
         "cod": "silvanopolis",
         "label": "Silvanópolis",
@@ -34768,6 +34855,24 @@ brazilianInfos.allCityCodes = function(state) {
 		})
 	}
 	return codes;
+}
+brazilianInfos.allCities = function(state) {
+	if (!brazilianInfos.statesAndCities)
+		return;
+
+	var cities = [];
+	if (!state) {
+		brazilianInfos.statesAndCities.forEach(function(state) {
+			state.cities.forEach(function(city) {
+				cities.push(city);
+			})
+		});
+	} else {
+		state.cities.forEach(function(city) {
+			cities.push(city);
+		})
+	}
+	return cities;
 }
 
 if (typeof module !== 'undefined') {

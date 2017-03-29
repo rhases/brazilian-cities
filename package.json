@@ -27,5 +27,8 @@
   "homepage": "https://github.com/rhases/brazilian-cities#readme",
   "dependencies": {
     "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "simple-test-framework": "^0.1.7"
   }
 }
