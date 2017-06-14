@@ -102,7 +102,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Rio Branco",
         "ansArea": "acre",
         "ibgeCod": 120040,
-        "ddd": 68
+        "ddd": 68,
+		"capital": true
     }, {
         "cod": "rodrigues-alves",
         "label": "Rodrigues Alves",
@@ -434,7 +435,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Maceió",
         "ansArea": "regiao-01",
         "ibgeCod": 270430,
-        "ddd": 82
+        "ddd": 82,
+		"capital": true
     }, {
         "cod": "major-isidoro",
         "label": "Major Isidoro",
@@ -1012,7 +1014,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Manaus",
         "ansArea": "entorno-de-manaus",
         "ibgeCod": 130260,
-        "ddd": 92
+        "ddd": 92,
+		"capital": true
     }, {
         "cod": "manicore",
         "label": "Manicoré",
@@ -1224,7 +1227,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Macapá",
         "ansArea": "i-regional-de-saude",
         "ibgeCod": 160030,
-        "ddd": 96
+        "ddd": 96,
+		"capital": true
     }, {
         "cod": "mazagao",
         "label": "Mazagão",
@@ -3305,7 +3309,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Salvador",
         "ansArea": "salvador",
         "ibgeCod": 292740,
-        "ddd": 71
+        "ddd": 71,
+		"capital": true
     }, {
         "cod": "santa-barbara",
         "label": "Santa Bárbara",
@@ -4243,7 +4248,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Fortaleza",
         "ansArea": "fortaleza",
         "ibgeCod": 230440,
-        "ddd": 85
+        "ddd": 85,
+		"capital": true
     }, {
         "cod": "fortim",
         "label": "Fortim",
@@ -5073,7 +5079,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Brasília",
         "ansArea": "distrito-federal",
         "ibgeCod": 530010,
-        "ddd": 61
+        "ddd": 61,
+		"capital": true
     }, {
         "cod": "brazlandia",
         "label": "Brazlândia",
@@ -5723,7 +5730,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Vitória",
         "ansArea": "sr-vitoria",
         "ibgeCod": 320530,
-        "ddd": 27
+        "ddd": 27,
+		"capital": true
     }],
     "ansAreas": [{
         "name": "SR Cachoeiro do Itapemirim",
@@ -6310,7 +6318,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Goiânia",
         "ansArea": "central",
         "ibgeCod": 520870,
-        "ddd": 62
+        "ddd": 62,
+		"capital": true
     }, {
         "cod": "goianira",
         "label": "Goianira",
@@ -8385,7 +8394,8 @@ brazilianInfos.statesAndCities = [{
         "label": "São Luís",
         "ansArea": "ilha-do-maranhao",
         "ibgeCod": 211130,
-        "ddd": 98
+        "ddd": 98,
+		"capital": true
     }, {
         "cod": "sao-luis-gonzaga-do-maranhao",
         "label": "São Luís Gonzaga do Maranhão",
@@ -9068,7 +9078,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Belo Horizonte",
         "ansArea": "belo-horizonte",
         "ibgeCod": 310620,
-        "ddd": 31
+        "ddd": 31,
+		"capital": true
     }, {
         "cod": "belo-oriente",
         "label": "Belo Oriente",
@@ -13999,7 +14010,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Campo Grande",
         "ansArea": "nct-de-campo-grande",
         "ibgeCod": 500270,
-        "ddd": 67
+        "ddd": 67,
+		"capital": true
     }, {
         "cod": "caracol",
         "label": "Caracol",
@@ -14616,7 +14628,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Cuiabá",
         "ansArea": "baixada-cuiabana",
         "ibgeCod": 510340,
-        "ddd": 65
+        "ddd": 65,
+		"capital": true
     }, {
         "cod": "denise",
         "label": "Denise",
@@ -15383,7 +15396,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Belém",
         "ansArea": "metropolitana",
         "ibgeCod": 150140,
-        "ddd": 91
+        "ddd": 91,
+		"capital": true
     }, {
         "cod": "belterra",
         "label": "Belterra",
@@ -16771,7 +16785,8 @@ brazilianInfos.statesAndCities = [{
         "label": "João Pessoa",
         "ansArea": "i-nucleo-regional-de-saude",
         "ibgeCod": 250750,
-        "ddd": 83
+        "ddd": 83,
+		"capital": true
     }, {
         "cod": "juarez-tavora",
         "label": "Juarez Távora",
@@ -18378,7 +18393,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Recife",
         "ansArea": "recife",
         "ibgeCod": 261160,
-        "ddd": 81
+        "ddd": 81,
+		"capital": true
     }, {
         "cod": "riacho-das-almas",
         "label": "Riacho das Almas",
@@ -20015,7 +20031,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Teresina",
         "ansArea": "td-entre-rios",
         "ibgeCod": 221100,
-        "ddd": 86
+        "ddd": 86,
+		"capital": true
     }, {
         "cod": "uniao",
         "label": "União",
@@ -20671,7 +20688,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Curitiba",
         "ansArea": "metropolitana",
         "ibgeCod": 410690,
-        "ddd": 41
+        "ddd": 41,
+		"capital": true
     }, {
         "cod": "curiuva",
         "label": "Curiúva",
@@ -22974,7 +22992,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Rio de Janeiro",
         "ansArea": "metropolitana-i",
         "ibgeCod": 330455,
-        "ddd": 21
+        "ddd": 21,
+		"capital": true
     }, {
         "cod": "santa-maria-madalena",
         "label": "Santa Maria Madalena",
@@ -23678,7 +23697,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Natal",
         "ansArea": "grande-natal",
         "ibgeCod": 240810,
-        "ddd": 84
+        "ddd": 84,
+		"capital": true
     }, {
         "cod": "nisia-floresta",
         "label": "Nísia Floresta",
@@ -24400,7 +24420,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Porto Velho",
         "ansArea": "departamento-de-epidemiologia",
         "ibgeCod": 110020,
-        "ddd": 69
+        "ddd": 69,
+		"capital": true
     }, {
         "cod": "presidente-medici",
         "label": "Presidente Médici",
@@ -24525,7 +24546,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Boa Vista",
         "ansArea": "secretaria-estadual-de-saude",
         "ibgeCod": 140010,
-        "ddd": 95
+        "ddd": 95,
+		"capital": true
     }, {
         "cod": "bonfim",
         "label": "Bonfim",
@@ -26555,7 +26577,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Porto Alegre",
         "ansArea": "crs-01-porto-alegre",
         "ibgeCod": 431490,
-        "ddd": 51
+        "ddd": 51,
+		"capital": true
     }, {
         "cod": "porto-lucena",
         "label": "Porto Lucena",
@@ -28171,7 +28194,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Florianópolis",
         "ansArea": "grande-florianopolis",
         "ibgeCod": 420540,
-        "ddd": 48
+        "ddd": 48,
+		"capital": true
     }, {
         "cod": "formosa-do-sul",
         "label": "Formosa do Sul",
@@ -29487,7 +29511,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Aracaju",
         "ansArea": "regiao-aracaju",
         "ibgeCod": 280030,
-        "ddd": 79
+        "ddd": 79,
+		"capital": true
     }, {
         "cod": "araua",
         "label": "Arauá",
@@ -33335,7 +33360,8 @@ brazilianInfos.statesAndCities = [{
         "label": "São Paulo",
         "ansArea": "grande-sao-paulo",
         "ibgeCod": 355030,
-        "ddd": 11
+        "ddd": 11,
+		"capital": true
     }, {
         "cod": "sao-pedro",
         "label": "São Pedro",
@@ -34405,7 +34431,8 @@ brazilianInfos.statesAndCities = [{
         "label": "Palmas",
         "ansArea": "regiao-de-saude-do-capim-dourado",
         "ibgeCod": 172100,
-        "ddd": 63
+        "ddd": 63,
+		"capital": true
     }, {
         "cod": "palmeirante",
         "label": "Palmeirante",
@@ -34873,6 +34900,19 @@ brazilianInfos.allCities = function(state) {
 		})
 	}
 	return cities;
+}
+
+brazilianInfos.getCapitalOfState = function(state) {
+	if (!brazilianInfos.statesAndCities)
+		return;
+	if (!state || !state.cities)
+		return;
+
+	var index = _.findIndex(state.cities, { capital: true })
+
+	if (index >= 0)
+		return state.cities[index];
+	return undefined;
 }
 
 if (typeof module !== 'undefined') {
