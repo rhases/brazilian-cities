@@ -1,4 +1,6 @@
-import { allCities }  from '../lib/index';
+'use strict';
+
+import { allCities }  from './index';
 
 describe('all cities', () => {
 

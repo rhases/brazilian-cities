@@ -1,3 +1,5 @@
+'use strict';
+
 import _ from 'lodash';
 
 import statesAndCities from './states-and-cities'
@@ -24,6 +26,10 @@ export function getStateByCod(cod) {
 	return undefined;
 }
 
+export function allStates() {
+	return statesAndCities;
+}
+
 export function allStateCodes() {
 	if (!statesAndCities)
 		return;
@@ -32,6 +38,7 @@ export function allStateCodes() {
 	statesAndCities.forEach(function(state) { codes.push(state.cod); });
 	return codes;
 }
+
 
 export function getCityByLabel(state, label) {
 	if (!state || !state.cities)

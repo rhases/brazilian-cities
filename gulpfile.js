@@ -23,12 +23,12 @@ gulp.task('clean', function () {
 });
 
 gulp.task('test:run', function() {
-    return gulp.src('dist/spec/**')
+    return gulp.src('dist/**.spec.js')
       .pipe(jasmine())
 });
 
 gulp.task('watch', ['default'], function() {
-    gulp.watch('lib/*.ts', ['default']);
+    gulp.watch('src/*.ts', ['default']);
 });
 
 gulp.task('test', [], function(cb) {

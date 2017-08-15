@@ -1,7 +1,29 @@
 language: node_js
+sudo: false
+cache:
+  directories:
+  - $HOME/.npm
+  - $HOME/.yarn-cache
+  - node_modules
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
-  - "0.6"
-  - "iojs"
+- '6'
+before_install:
+- npm i -g yarn shx --cache-min 999999999
+install:
+- yarn
+script:
+- gulp test
+- gulp build
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+branches:
+  only:
+  - master
+  - develop
+deploy:
+  provider: npm
+  email: gabrielsr@gmail.com
+  api_key:
+    secure: LqIcikPUlqUndf/fglgExJOn7jWTCo8HWAc4uCq0u42N1uxrk5fpJKR1k4FogpE0bHZcysyb/SZF/yaScfry0ZX7sraQr6kLfDn/1kudxRDKScA022voOpf2HRXzns6lqsoN+dotB5E21rnaOrsFYePrhPUK/m5WK7/zMPdp5wrrNNcl1tksOFfQhv3smFyKrN4T9W1ojunQxi79m7fD1jWziqRkMvuaR3lc0neMT1t1V653SP053hgfANSKI/VfUY/e/hTI3V6WSnnh8Bzj+BayMV3ZNZ5UQNhi86PcYj94mVxQ9GQNoCVQnPqE5aRTkJRMVpAkYtuBXq+DZktOtUW/FyTFelw1lXUq/jEmxZeiQN+nn8Y7jAPZHAtozX7292y5ky3KKc09PQCO7lHomst3dfuKOydID+92r6ntrPhi2gpgAOqyEpPjRLunTp1TIDXiDNuv+P42Omj34/6FYI3YKwXRKG7/7LLGJEkSN/8FD7cCxlx483PS4QTAHMgWkITJpLdNQmXk3ySUj6vcRBcSk23gcEEFiRN7EqS8HZN3+Jlp2dFGYhRYs6lVYhFi3GcgFO1UA+xTaP2Fq1CSSYvmQoSC2FR9/FsqIkw3HLUbKfy1nQ8SIKd0Jq366dCy4U80oYNGoFpfjuGSrw0qq5aXDMYL73pne6yn0YU2Euc=
+  on:
+    repo: rhases/brazilian-cities
