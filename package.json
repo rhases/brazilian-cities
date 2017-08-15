@@ -1,35 +1,33 @@
 {
-"name": "brazilian-cities",
-"version": "2.0.0",
-"description": "All brazilian cities",
-"main": "dist/lib/index.js",
-"typings": "definitions/lib/index",
-"typescript": {
-  "definition": "definitions/lib/index"
-},
-"description": "TypeScript NPM module bootstrap ",
-"engineStrict": true,
-"devDependencies": {
-  "@types/jasmine": "^2.5.38",
-  "@types/es6-shim": "^0.31.32",
-  "@types/node": "~6.0.46",
-  "gulp": "^3.9.1",
-  "gulp-clean": "^0.3.2",
-  "gulp-jasmine": "^2.4.2",
-  "gulp-typescript": "^3.1.3",
-  "jasmine": "^2.5.2",
-  "merge2": "^1.0.2",
-  "rimraf": "~2.5.4",
-  "run-sequence": "^1.2.2",
-  "standard-version": "^3.0.0",
-  "tslint": "~3.15.1",
-  "tslint-microsoft-contrib": "~2.0.13",
-  "typescript": "~2.4.2"
-},
-"scripts": {
-  "test": "gulp test",
-  "release": "standard-version"
-},
+  "name": "brazilian-cities",
+  "version": "2.0.1",
+  "description": "TypeScript NPM module bootstrap ",
+  "main": "dist/index.js",
+  "typings": "definitions/index",
+  "typescript": {
+    "definition": "definitions/index"
+  },
+  "engineStrict": true,
+  "devDependencies": {
+    "@types/jasmine": "^2.5.38",
+    "@types/es6-shim": "^0.31.32",
+    "@types/node": "~6.0.46",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-typescript": "^3.1.3",
+    "jasmine": "^2.5.2",
+    "merge2": "^1.0.2",
+    "rimraf": "~2.5.4",
+    "run-sequence": "^1.2.2",
+    "standard-version": "^3.0.0",
+    "tslint": "~3.15.1",
+    "tslint-microsoft-contrib": "~2.0.13",
+    "typescript": "~2.4.2"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rhases/brazilian-cities.git"
