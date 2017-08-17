@@ -1,6 +1,6 @@
 'use strict';
 
-let statesAndCities:any[] = [{
+var statesAndCities:any[] = [{
     "cod": "ac",
     "label": "Acre",
     "cities": [{
