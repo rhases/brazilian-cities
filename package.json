@@ -17,6 +17,7 @@
     "gulp-jasmine": "^2.4.2",
     "gulp-typescript": "^3.1.3",
     "jasmine": "^2.5.2",
+    "lodash": "^4.17.4",
     "merge2": "^1.0.2",
     "rimraf": "~2.5.4",
     "run-sequence": "^1.2.2",
@@ -49,7 +50,7 @@
     "url": "https://github.com/rhases/brazilian-cities/issues"
   },
   "homepage": "https://github.com/rhases/brazilian-cities#readme",
-  "dependencies": {
-    "lodash": "^4.13.1"
+  "peerDependencies": {
+    "lodash": "^4.17.4"
   }
 }

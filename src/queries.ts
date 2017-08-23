@@ -1,6 +1,6 @@
 'use strict';
 
-import _ from 'lodash';
+var _ = require('lodash');
 
 import statesAndCities from './states-and-cities'
 
