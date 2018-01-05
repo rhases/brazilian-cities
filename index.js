@@ -7,6 +7,7 @@ if (typeof require !== 'undefined') {
 brazilianInfos.statesAndCities = [{
     "cod": "ac",
     "label": "Acre",
+    "ibgeCod": 12,
     "cities": [{
         "cod": "acrelandia",
         "label": "Acrelândia",
@@ -154,6 +155,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "al",
     "label": "Alagoas",
+    "ibgeCod": 27,
     "cities": [{
         "cod": "agua-branca",
         "label": "Água Branca",
@@ -787,6 +789,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "am",
     "label": "Amazonas",
+    "ibgeCod": 13,
     "cities": [{
         "cod": "alvaraes",
         "label": "Alvarães",
@@ -1186,6 +1189,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ap",
     "label": "Amapá",
+    "ibgeCod": 16,
     "cities": [{
         "cod": "amapa",
         "label": "Amapá",
@@ -1294,6 +1298,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ba",
     "label": "Bahia",
+    "ibgeCod": 29,
     "cities": [{
         "cod": "abaira",
         "label": "Abaíra",
@@ -3895,6 +3900,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ce",
     "label": "Ceará",
+    "ibgeCod": 23,
     "cities": [{
         "cod": "abaiara",
         "label": "Abaiara",
@@ -5068,6 +5074,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "df",
     "label": "Distrito Federal",
+    "ibgeCod": 53,
     "cities": [{
         "cod": "aguas-claras",
         "label": "Águas Claras",
@@ -5263,6 +5270,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "es",
     "label": "Espírito Santo",
+    "ibgeCod": 32,
     "cities": [{
         "cod": "afonso-claudio",
         "label": "Afonso Cláudio",
@@ -5749,6 +5757,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "go",
     "label": "Goiás",
+    "ibgeCod": 52,
     "cities": [{
         "cod": "abadia-de-goias",
         "label": "Abadia de Goiás",
@@ -7279,6 +7288,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ma",
     "label": "Maranhão",
+    "ibgeCod": 21,
     "cities": [{
         "cod": "acailandia",
         "label": "Açailândia",
@@ -8683,6 +8693,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "mg",
     "label": "Minas Gerais",
+    "ibgeCod": 31,
     "cities": [{
         "cod": "abadia-dos-dourados",
         "label": "Abadia dos Dourados",
@@ -13891,6 +13902,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ms",
     "label": "Mato Grosso do Sul",
+    "ibgeCod": 50,
     "cities": [{
         "cod": "agua-clara",
         "label": "Água Clara",
@@ -14395,6 +14407,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "mt",
     "label": "Mato Grosso",
+    "ibgeCod": 51,
     "cities": [{
         "cod": "acorizal",
         "label": "Acorizal",
@@ -15283,6 +15296,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "pa",
     "label": "Pará",
+    "ibgeCod": 15,
     "cities": [{
         "cod": "abaetetuba",
         "label": "Abaetetuba",
@@ -16216,6 +16230,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "pb",
     "label": "Paraíba",
+    "ibgeCod": 25,
     "cities": [{
         "cod": "agua-branca",
         "label": "Água Branca",
@@ -17596,6 +17611,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "pe",
     "label": "Pernambuco",
+    "ibgeCod": 26,
     "cities": [{
         "cod": "abreu-e-lima",
         "label": "Abreu e Lima",
@@ -18748,6 +18764,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "pi",
     "label": "Piauí",
+    "ibgeCod": 22,
     "cities": [{
         "cod": "acaua",
         "label": "Acauã",
@@ -20119,6 +20136,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "pr",
     "label": "Paraná",
+    "ibgeCod": 41,
     "cities": [{
         "cod": "abatia",
         "label": "Abatiá",
@@ -22585,6 +22603,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "rj",
     "label": "Rio de Janeiro",
+    "ibgeCod": 33,
     "cities": [{
         "cod": "angra-dos-reis",
         "label": "Angra dos Reis",
@@ -23170,6 +23189,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "rn",
     "label": "Rio Grande do Norte",
+    "ibgeCod": 24,
     "cities": [{
         "cod": "acari",
         "label": "Acari",
@@ -24199,6 +24219,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "ro",
     "label": "Rondônia",
+    "ibgeCod": 11,
     "cities": [{
         "cod": "alta-floresta-d'oeste",
         "label": "Alta Floresta d'Oeste",
@@ -24529,6 +24550,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "rr",
     "label": "Roraima",
+    "ibgeCod": 14,
     "cities": [{
         "cod": "alto-alegre",
         "label": "Alto Alegre",
@@ -24628,6 +24650,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "rs",
     "label": "Rio Grande do Sul",
+    "ibgeCod": 43,
     "cities": [{
         "cod": "acegua",
         "label": "Aceguá",
@@ -27667,6 +27690,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "sc",
     "label": "Santa Catarina",
+    "ibgeCod": 42,
     "cities": [{
         "cod": "abdon-batista",
         "label": "Abdon Batista",
@@ -29494,6 +29518,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "se",
     "label": "Sergipe",
+    "ibgeCod": 28,
     "cities": [{
         "cod": "amparo-de-sao-francisco",
         "label": "Amparo de São Francisco",
@@ -29971,6 +29996,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "sp",
     "label": "São Paulo",
+    "ibgeCod": 35,
     "cities": [{
         "cod": "adamantina",
         "label": "Adamantina",
@@ -33898,6 +33924,7 @@ brazilianInfos.statesAndCities = [{
 }, {
     "cod": "to",
     "label": "Tocantins",
+    "ibgeCod": 17,
     "cities": [{
         "cod": "abreulandia",
         "label": "Abreulândia",
@@ -34804,6 +34831,17 @@ brazilianInfos.getStateByCod = function(cod) {
 	return undefined;
 }
 
+brazilianInfos.getStateByIbgeCod = function(cod) {
+	if (!brazilianInfos.statesAndCities || !cod)
+		return;
+
+	var index = _.findIndex(brazilianInfos.statesAndCities, function(state) { return state.ibgeCod === cod; })
+
+	if (index >= 0)
+		return brazilianInfos.statesAndCities[index];
+	return undefined;
+}
+
 brazilianInfos.allStateCodes = function() {
 	if (!brazilianInfos.statesAndCities)
 		return;
@@ -34850,6 +34888,20 @@ brazilianInfos.getAllByDDD = function(ddd) {
 				return newState;
 			return null;
 		}));
+}
+
+brazilianInfos.getCityByIbgeCod = function(cod) {
+	if (!cod)
+        return;
+    
+    var state = brazilianInfos.getStateByIbgeCod(Math.floor(cod/10000));//first 2 digits
+    var city = _.find(state.cities, {ibgeCod: cod});
+    if(!city)
+        return;
+
+    var newCity = _.clone(city);
+    newCity.state = {cod: state.cod, label: state.label, ibgeCod: state.ibgeCod};
+    return newCity;
 }
 
 brazilianInfos.getAllByAnsArea = function(ansAreaCod) {
