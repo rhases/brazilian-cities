@@ -52,5 +52,8 @@
   "homepage": "https://github.com/rhases/brazilian-cities#readme",
   "peerDependencies": {
     "lodash": "^4.17.4"
+  },
+  "dependencies": {
+    "chai-things": "^0.2.0"
   }
 }

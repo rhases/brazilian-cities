@@ -1,16 +1,40 @@
 'use strict';
 
-import { allCities }  from './index';
+import { allCities, allStates }  from './index';
 
-describe('all cities', () => {
+describe('states-and-cities', () => {
 
-   it('should have ddd, ibgeCod and ansArea', () => {
-     var cities = allCities();
-     cities.forEach(function(city){
-       expect(city.ddd).not.toBeNaN();
-       expect(city.ibgeCod).not.toBeNaN();
-       expect(city.ansArea).not.toBeNaN();
-     })
-   });
+  it('should have 27 states', () => {
+    var states = allStates();
+    expect(states).not.toBeNull();
+    expect(states.length).toBe(27);
+  });
+
+  // and each state...
+  var states = allStates();
+  states.forEach(function (state) {
+    eachState(state);
+  })
+
+  function eachState(state) {
+    it(`should state ${state.label} has ibdgeCod`, function () {
+      expect(state.ibgeCod).toBeTruthy();
+    });
+  }
+
+  // and each city ...
+  var cities = allCities();
+  cities.forEach(function (city) {
+    eachCity(city);
+  })
+
+  function eachCity(city){
+    it(`should city ${city.label} has ddd, ibdgeCod and ansArea`, function () {
+      expect(city.ddd).toBeTruthy();
+      expect(city.ibgeCod).toBeTruthy();
+      expect(city.ansArea).toBeTruthy();
+    });
+  }
 
 });
+

@@ -3,6 +3,7 @@
 var statesAndCities:any[] = [{
     "cod": "ac",
     "label": "Acre",
+    "ibgeCod": 12,
     "cities": [{
         "cod": "acrelandia",
         "label": "Acrelândia",
@@ -150,6 +151,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "al",
     "label": "Alagoas",
+    "ibgeCod": 27,
     "cities": [{
         "cod": "agua-branca",
         "label": "Água Branca",
@@ -783,6 +785,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "am",
     "label": "Amazonas",
+    "ibgeCod": 13,
     "cities": [{
         "cod": "alvaraes",
         "label": "Alvarães",
@@ -1182,6 +1185,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ap",
     "label": "Amapá",
+    "ibgeCod": 16,
     "cities": [{
         "cod": "amapa",
         "label": "Amapá",
@@ -1290,6 +1294,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ba",
     "label": "Bahia",
+    "ibgeCod": 29,
     "cities": [{
         "cod": "abaira",
         "label": "Abaíra",
@@ -3891,6 +3896,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ce",
     "label": "Ceará",
+    "ibgeCod": 23,
     "cities": [{
         "cod": "abaiara",
         "label": "Abaiara",
@@ -5064,6 +5070,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "df",
     "label": "Distrito Federal",
+    "ibgeCod": 53,
     "cities": [{
         "cod": "aguas-claras",
         "label": "Águas Claras",
@@ -5259,6 +5266,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "es",
     "label": "Espírito Santo",
+    "ibgeCod": 32,
     "cities": [{
         "cod": "afonso-claudio",
         "label": "Afonso Cláudio",
@@ -5745,6 +5753,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "go",
     "label": "Goiás",
+    "ibgeCod": 52,
     "cities": [{
         "cod": "abadia-de-goias",
         "label": "Abadia de Goiás",
@@ -7275,6 +7284,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ma",
     "label": "Maranhão",
+    "ibgeCod": 21,
     "cities": [{
         "cod": "acailandia",
         "label": "Açailândia",
@@ -8679,6 +8689,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "mg",
     "label": "Minas Gerais",
+    "ibgeCod": 31,
     "cities": [{
         "cod": "abadia-dos-dourados",
         "label": "Abadia dos Dourados",
@@ -13887,6 +13898,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ms",
     "label": "Mato Grosso do Sul",
+    "ibgeCod": 50,
     "cities": [{
         "cod": "agua-clara",
         "label": "Água Clara",
@@ -14391,6 +14403,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "mt",
     "label": "Mato Grosso",
+    "ibgeCod": 51,
     "cities": [{
         "cod": "acorizal",
         "label": "Acorizal",
@@ -15279,6 +15292,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "pa",
     "label": "Pará",
+    "ibgeCod": 15,
     "cities": [{
         "cod": "abaetetuba",
         "label": "Abaetetuba",
@@ -16212,6 +16226,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "pb",
     "label": "Paraíba",
+    "ibgeCod": 25,
     "cities": [{
         "cod": "agua-branca",
         "label": "Água Branca",
@@ -17592,6 +17607,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "pe",
     "label": "Pernambuco",
+    "ibgeCod": 26,
     "cities": [{
         "cod": "abreu-e-lima",
         "label": "Abreu e Lima",
@@ -18744,6 +18760,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "pi",
     "label": "Piauí",
+    "ibgeCod": 22,
     "cities": [{
         "cod": "acaua",
         "label": "Acauã",
@@ -20115,6 +20132,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "pr",
     "label": "Paraná",
+    "ibgeCod": 41,
     "cities": [{
         "cod": "abatia",
         "label": "Abatiá",
@@ -22581,6 +22599,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "rj",
     "label": "Rio de Janeiro",
+    "ibgeCod": 33,
     "cities": [{
         "cod": "angra-dos-reis",
         "label": "Angra dos Reis",
@@ -23166,6 +23185,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "rn",
     "label": "Rio Grande do Norte",
+    "ibgeCod": 24,
     "cities": [{
         "cod": "acari",
         "label": "Acari",
@@ -24195,6 +24215,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "ro",
     "label": "Rondônia",
+    "ibgeCod": 11,
     "cities": [{
         "cod": "alta-floresta-d'oeste",
         "label": "Alta Floresta d'Oeste",
@@ -24525,6 +24546,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "rr",
     "label": "Roraima",
+    "ibgeCod": 14,
     "cities": [{
         "cod": "alto-alegre",
         "label": "Alto Alegre",
@@ -24624,6 +24646,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "rs",
     "label": "Rio Grande do Sul",
+    "ibgeCod": 43,
     "cities": [{
         "cod": "acegua",
         "label": "Aceguá",
@@ -27663,6 +27686,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "sc",
     "label": "Santa Catarina",
+    "ibgeCod": 42,
     "cities": [{
         "cod": "abdon-batista",
         "label": "Abdon Batista",
@@ -29490,6 +29514,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "se",
     "label": "Sergipe",
+    "ibgeCod": 28,
     "cities": [{
         "cod": "amparo-de-sao-francisco",
         "label": "Amparo de São Francisco",
@@ -29967,6 +29992,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "sp",
     "label": "São Paulo",
+    "ibgeCod": 35,
     "cities": [{
         "cod": "adamantina",
         "label": "Adamantina",
@@ -33894,6 +33920,7 @@ var statesAndCities:any[] = [{
 }, {
     "cod": "to",
     "label": "Tocantins",
+    "ibgeCod": 17,
     "cities": [{
         "cod": "abreulandia",
         "label": "Abreulândia",

@@ -26,6 +26,17 @@ export function getStateByCod(cod) {
 	return undefined;
 }
 
+export function getStateByIbgeCod (cod) {
+	if (!statesAndCities || !cod)
+		return;
+
+	var index = _.findIndex(statesAndCities, function (state) { return state.ibgeCod === cod; })
+
+	if (index >= 0)
+		return statesAndCities[index];
+	return undefined;
+}
+
 export function allStates() {
 	return statesAndCities;
 }
@@ -77,6 +88,20 @@ export function getAllByDDD(ddd) {
 				return newState;
 			return null;
 		}));
+}
+
+export function getCityByIbgeCod (cod) {
+	if (!cod)
+		return;
+
+	var state = getStateByIbgeCod(Math.floor(cod / 10000));//first 2 digits
+	var city = _.find(state.cities, { ibgeCod: cod });
+	if (!city)
+		return;
+
+	var newCity = _.clone(city);
+	newCity.state = { cod: state.cod, label: state.label, ibgeCod: state.ibgeCod };
+	return newCity;
 }
 
 export function getAllByAnsArea(ansAreaCod) {
